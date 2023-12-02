@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user_name = localStorage.getItem("nameAccount");
+        let user_password = localStorage.getItem("passwordAccount");
+        let user_date = localStorage.getItem("dateAccount");
+        let user_gender = localStorage.getItem("genderAccount");
+        document.write("Name: " + user_name + "<br/>");
+        document.write("Password: " + user_password + "<br/>");
+        document.write("Date: " + user_date + "<br/>");
+        document.write("Gender: " + user_gender + "<br/>");
+    </script>
+</body>
+</html>
